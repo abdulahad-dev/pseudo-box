@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover {
+            color: royalblue;
+            background-color: aqua;
+        }
+
+        .middle-persion:focus {
+            color: blue;
+            font-weight: 700;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        li:first-child {
+            color: chocolate;
+        }
+
+        li:last-child {
+            background-color: blanchedalmond;
+        }
+
+        /* li:nth-child(n) {
+            color: crimson;
+        } */
+        li:nth-child(2n) {
+            color: crimson;
+        }
+
+        li:nth-child(2n+1) {
+            background-color: chartreuse;
+        }
+
+        h3::before {
+            content: 'Hello ';
+        }
+
+        h3::after {
+            content: ', welcome elements vai';
+            background-color: coral;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is normal</h1>
+    <input type="text"><br>
+    <input class="middle-persion" type="text"><br>
+    <input type="text"><br>
+    <a href="https://google.com">Google a jaw</a>
+    <a href="https://web.programming-hero.com/">programming-hero a ty jaw</a>
+    <a href="https://github.com/abdulahad-dev">Github a jaw</a>
+    <hr>
+    <ul>
+        <li>Habib</li>
+        <li>Ahad</li>
+        <li>Juwel</li>
+        <li>Shipa</li>
+        <li>Rita</li>
+        <li>Juma</li>
+    </ul>
+    <h3>middle size header-1</h3>
+    <h3>middle size header-2</h3>
+    <h3>middle size header-3</h3>
+    <h3>middle size header-4</h3>
+    <h3>middle size header-5</h3>
+    <h3>middle size header-6</h3>
+</body>
+
+</html>
